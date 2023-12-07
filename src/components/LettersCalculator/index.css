@@ -1,0 +1,116 @@
+/* Write your code here. */
+
+@media (max-width: 992px) {
+  .bg-card {
+    background-image: linear-gradient(to right, #1d976c, #93f9b9);
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto;
+  }
+  .cal-img {
+    height: 300px;
+    width: 450px;
+  }
+  .letters-card {
+    height: 500px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .cal-heading {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'roboto';
+  }
+  .input-top-text {
+    color: #ffffff;
+    font-size: 20px;
+    align-self: flex-start;
+    margin-left: 49px;
+  }
+  .input-text {
+    border: 1px solid #e4e7eb;
+    background-color: transparent;
+    height: 40px;
+    width: 280px;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 8px;
+  }
+  .count-text {
+    color: #219a6f;
+    background-color: #ffffff;
+    height: 40px;
+    width: 280px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 8px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bg-card {
+    background-image: linear-gradient(to right, #1d976c, #93f9b9);
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto;
+  }
+  .cal-img {
+    height: 450px;
+    width: 450px;
+  }
+  .letters-card {
+    height: px;
+    width: 380px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+  .cal-heading {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: start;
+    align-items: flex-start;
+  }
+  .input-top-text {
+    color: #ffffff;
+    font-size: 17px;
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+  .input-text {
+    border: 1px solid #e4e7eb;
+    background-color: transparent;
+    height: 40px;
+    width: 320px;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 8px;
+  }
+  .count-text {
+    color: #219a6f;
+    background-color: #ffffff;
+    height: 60px;
+    width: 250px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 14px;
+    border-radius: 8px;
+  }
+}
